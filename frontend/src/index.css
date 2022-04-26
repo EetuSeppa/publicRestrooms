@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	font-family: "Avenir Next";
+	box-sizing: border-box;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	display: inline;
+	margin-right: 20px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.pageTop {
+	margin: 0;
+	background-color: #00D060;
+	color: white;
+	padding: 20px;
+	padding-top: 1px;
+}
+h1 {
+	font-weight: normal;
+}
+.searchArea div {
+	width: 90%;
+	margin: 0.5%;
+}
+
+.searchBar {
+	border: 1px solid #707070;
+	width: 70%;
+	margin: 1%;
+}
+.searchBar h2 {
+	margin:1%;
+}
+.searchForm {
+	margin: 1%;
+}
+.navBar li {
+	cursor:pointer;
+}
+.formArea label,select {
+	display: block;
+}
+.formArea  button {
+	margin-left: 10px;
+}
+.restRoomForm {
+	margin: 10px;
+}
+.restRoomForm label, input {
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+.formArea h2 {
+	margin: 10px;
+}
+.clicked {
+	background-color: #00D060;
+}
+button {
+	height: 15px;
+	width: 15px;
+	border-radius: 3px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+input {
+	border-radius: 5px;
+}
+.error {
+	background-color: #ff7d7d;
+	width: 70%;
+	margin: 1%;
+}
+.error h2 {
+	margin: 1%;
+}
+.priceLabel {
+	margin-left: 2%;
+}
+.firstElement {
+	display: inline-block;
+	width: 25%;
+}
+.secondElement {
+	display: inline-block;
+	width: 12%;
+}
+.thirdElement {
+	display: inline-block;
+	width: 5%;
+}
+.fourthElement {
+	display: inline-block;
+	width: 20%
+}
+.fifthElement {
+	display: inline-block;
+	width: 5;
+}
+.pageTop h1 {
+	cursor: pointer;
+}
+.searchArea, .formArea {
+border: 1px solid #707070;
+}
+@media only screen and (min-width: 992px) {
+.searchArea, .formArea {
+	width: 70%;
+	height: 500px;
+	margin: 1%;
+	overflow: scroll;
+}
+.topRow {
+	border-bottom: 1.5px solid #707070;
+	border-radius: 2px;
+}
+}
+/*Phones*/
+@media only screen and (max-width: 600px) {
+div {
+	border-radius: 4px;
+}
+.navBar {
+	height: 10%
+}
+.searchBar, .searchArea {
+	width: 98%;
+	margin: 1%;
+}
+.searchForm label {
+	display:block;
+}
+.searchForm input {
+	margin-left: 3%;
+}
+.searchResults li {
+	display:block;	
+	width: 60%;
+	margin-left: 1%
+}
+.searchResults ul {
+	border: 1px solid #707070;
+	border-radius: 4px;
+}
+.topRow {
+	border: 1px solid black;
+	border-radius: 4px;
+}
+}
+.thanksDiv {
+	margin:2%;
+}
+.thanksDiv button,h3 {
+	display: inline-block;
+}
